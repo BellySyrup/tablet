@@ -1,0 +1,58 @@
+body{
+	width: 1920px;
+	height: 720px;
+	margin: 0px; 
+	padding: 0px;
+	background: url('../img/bg.png');
+}
+#main{
+}
+header{
+	background: url('../img/header.png');
+	width: 1920px;
+	height: 500px;
+	float: left;
+	z-index: 1000;
+	position: absolute;
+}
+#nav{
+	width: 1920px;
+	height: 360px;
+	margin: 360px 0px;
+	background: url('../img/navbg.png') #333;
+	box-shadow: 0px 0px 20px #000;
+	float: left;
+}
+#content{
+	display: none;
+	width: 1290px;
+	height: 800px;
+	margin: 140px 26px;
+	/*background: white;*/
+	box-shadow: 0px 0px 20px #000;
+	float: left;
+}
+#site{
+	height: 800px;
+	width: 1290px;
+}
+.links, #home{
+	float: left;
+	height: 360px;
+	margin: 0px 20px;
+	cursor: pointer;
+	cursor: hand;
+	opacity: 0.5;
+	-moz-opactity: 0.5;
+}
+.links:hover{
+	opacity: 1;
+	-moz-opacity: 1;
+}
+#home	{background: url('../img/home.png')			no-repeat center; width: 200px; display: none;}
+#one	{background: url('../img/febreeze.png')		no-repeat center; width: 251px; margin-left: 140px;}
+#two	{background: url('../img/holistica.png') 	no-repeat center; width: 197px;}
+#three	{background: url('../img/panasonic.png') 	no-repeat center; width: 300px;}
+#four	{background: url('../img/supra.png') 		no-repeat center; width: 150px;}
+#five	{background: url('../img/skidurham.png') 	no-repeat center; width: 261px;}
+#six	{background: url('../img/wicked.png')		no-repeat center; width: 267px;}
